@@ -1,0 +1,64 @@
+# Python and Jupyter specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+*.egg-info/
+*.egg
+*.pkl
+*.log
+.DS_Store
+
+# Environment and build files
+.env
+.venv
+env/
+venv/
+rl_env/
+*.swp
+*.bak
+*.tmp
+*.lock
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm, VSCode and IDE configs
+.idea/
+.vscode/
+
+# Reports and outputs
+/reports/*.pdf
+/reports/figures/*.png
+/reports/figures/*.jpg
+/reports/figures/*.jpeg
+
+# Cache and test artifacts
+__pycache__/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Data and temp files
+*.csv
+*.npy
+*.npz
+*.h5
+*.json
+*.zip
+*.tar
+*.gz
+*.sqlite3
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.tmp
