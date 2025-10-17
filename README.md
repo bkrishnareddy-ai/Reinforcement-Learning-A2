@@ -148,27 +148,6 @@ The base agent exhibited consistent improvement, converging by ≈ episode 2000.
 
 ---
 
-## 7. Visualization Outputs
-
-| Figure | Description | File |
-|--------|--------------|------|
-| 1 | Base-Model Reward Trajectory | `/reports/figures/base_model_plot.png` |
-| 2 | Effect of Learning Rate | `/reports/figures/learning_rate_sweep.png` |
-| 3 | Impact of Exploration Factor | `/reports/figures/exploration_sweep.png` |
-| 4 | Retraining Comparison | `/reports/figures/retraining_comparison.png` |
-| 5 | Multi-Panel Combined View | `/reports/figures/multi_panel_comparison.png` |
-
----
-
-## 8. Report Generation
-
-To generate the academic report:
-1. Run all notebook cells.  
-2. From Jupyter: **File → Download as → PDF via LaTeX**  
-3. Save as: `reports/QLearning_Report.pdf`
-
----
-
 ## 9. Key Takeaways
 - Higher learning rates accelerate convergence significantly without instability.  
 - Optimal exploration (ε=0.1) maintains stable and efficient policy learning.  
